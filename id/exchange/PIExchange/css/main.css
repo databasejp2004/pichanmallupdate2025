@@ -1,0 +1,95 @@
+body{
+    background: #25133A;
+}
+nav {
+    background: #25133A;
+}
+.navbar-dark .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0);
+    color: #fff;
+}
+.users small {
+    color: #a3a3a3;
+}
+
+.users b {
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.btn-sell {
+    width: 100px;
+    background: #fec05b;
+    border: none;
+    color: #fff;
+    border-radius: 48px;
+    font-weight: bold;
+    position: relative;
+    top: 110px;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer ul li {
+    margin-top: 5px;
+}
+
+.footer li a {
+    color: #c7cccc;
+    font-weight: bold;
+}
+
+#Login {
+    display: none;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    background: rgba(0,0,0, 0.7);
+}
+
+.boxLogin {
+    width: 230px;
+    position: relative;
+    top: 38%;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.closes {
+    width: 35px;
+    height: 35px;
+    background: #000;
+    border: 1px solid #fff;
+    opacity: 1;
+    position: absolute;
+    float: right;
+    right: -13px;
+    top: -10px;
+    border-radius: 48px;
+    color: #fff;
+}
+
+.closes i {
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+}
+
+input#Amount {
+    width: 200px;
+    max-width: 80%;
+    background: none;
+    color: #fff;
+    font-size: 13px;
+    border: 1px solid #fec05b;
+    outline: none;
+}
